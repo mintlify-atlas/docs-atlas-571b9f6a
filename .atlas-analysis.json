@@ -1,0 +1,356 @@
+{
+  "projectType": "saas",
+  "projectName": "Railway",
+  "projectDescription": "A deployment platform for provisioning infrastructure, developing locally, and deploying applications to the cloud.",
+  "theme": "aspen",
+  "primaryColor": "#553f83",
+  "lightColor": "#bfa5ff",
+  "darkColor": "#2a1e42",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "quick-start",
+              "overview/the-basics",
+              "overview/best-practices",
+              "overview/advanced-concepts",
+              "overview/production-readiness-checklist"
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "pages": [
+              "projects",
+              "services",
+              "deployments",
+              "environments",
+              "variables",
+              "build-deploy"
+            ]
+          },
+          {
+            "group": "Builds",
+            "pages": [
+              "builds",
+              "builds/nixpacks",
+              "builds/railpack",
+              "builds/dockerfiles",
+              "builds/build-configuration",
+              "builds/build-and-start-commands",
+              "builds/private-registries"
+            ]
+          },
+          {
+            "group": "Deployments",
+            "pages": [
+              "deployments",
+              "deployments/regions",
+              "deployments/scaling",
+              "deployments/serverless",
+              "deployments/github-autodeploys",
+              "deployments/monorepo",
+              "deployments/healthchecks",
+              "deployments/pre-deploy-command",
+              "deployments/start-command",
+              "deployments/deployment-actions",
+              "deployments/deployment-teardown",
+              "deployments/restart-policy",
+              "deployments/staged-changes",
+              "deployments/image-auto-updates",
+              "deployments/optimize-performance"
+            ]
+          },
+          {
+            "group": "Networking",
+            "pages": [
+              "networking",
+              "networking/public-networking",
+              "networking/private-networking",
+              "networking/domains",
+              "networking/edge-networking",
+              "networking/tcp-proxy",
+              "networking/static-outbound-ips",
+              "networking/outbound-networking"
+            ]
+          },
+          {
+            "group": "Databases",
+            "pages": [
+              "databases",
+              "databases/postgresql",
+              "databases/mysql",
+              "databases/mongodb",
+              "databases/redis",
+              "databases/build-a-database-service",
+              "databases/database-view"
+            ]
+          },
+          {
+            "group": "Storage",
+            "pages": [
+              "data-storage",
+              "volumes",
+              "storage-buckets"
+            ]
+          },
+          {
+            "group": "Observability",
+            "pages": [
+              "observability"
+            ]
+          },
+          {
+            "group": "AI",
+            "pages": [
+              "ai",
+              "ai/agent-skills",
+              "ai/mcp-server"
+            ]
+          },
+          {
+            "group": "Advanced Features",
+            "pages": [
+              "functions",
+              "cron-jobs",
+              "templates",
+              "config-as-code"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "CLI Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "cli"
+            ]
+          },
+          {
+            "group": "Commands",
+            "pages": [
+              "cli/add",
+              "cli/completion",
+              "cli/connect",
+              "cli/delete",
+              "cli/deploy",
+              "cli/deploying",
+              "cli/deployment",
+              "cli/dev",
+              "cli/docs",
+              "cli/domain",
+              "cli/down",
+              "cli/environment",
+              "cli/functions",
+              "cli/global-options",
+              "cli/init",
+              "cli/link",
+              "cli/list",
+              "cli/login",
+              "cli/logout",
+              "cli/logs",
+              "cli/open",
+              "cli/project",
+              "cli/redeploy",
+              "cli/service",
+              "cli/shell",
+              "cli/status",
+              "cli/unlink",
+              "cli/up",
+              "cli/variables",
+              "cli/volume",
+              "cli/whoami"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "integrations"
+            ]
+          },
+          {
+            "group": "API",
+            "pages": [
+              "integrations/api",
+              "integrations/oauth"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Framework Guides",
+            "pages": [
+              "guides/getting-started",
+              "guides/angular",
+              "guides/astro",
+              "guides/django",
+              "guides/express",
+              "guides/fastapi",
+              "guides/fastify",
+              "guides/flask",
+              "guides/laravel",
+              "guides/nest",
+              "guides/nuxt",
+              "guides/phoenix",
+              "guides/rails",
+              "guides/react",
+              "guides/remix",
+              "guides/solid",
+              "guides/spring-boot",
+              "guides/sveltekit",
+              "guides/symfony",
+              "guides/vue"
+            ]
+          },
+          {
+            "group": "Deployment Guides",
+            "pages": [
+              "guides/deploying-a-monorepo",
+              "guides/static-hosting",
+              "guides/manage-domains",
+              "guides/manage-environments",
+              "guides/manage-volumes"
+            ]
+          },
+          {
+            "group": "Integration Guides",
+            "pages": [
+              "guides/github-actions-pr-environment",
+              "guides/github-actions-post-deploy",
+              "guides/github-actions-runners",
+              "guides/set-up-a-datadog-agent",
+              "guides/set-up-a-tailscale-subnet-router",
+              "guides/bridge-railway-to-rds-with-tailscale",
+              "guides/deploy-an-otel-collector-stack",
+              "guides/add-a-cdn-using-cloudfront"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "guides/troubleshooting-slow-apps",
+              "guides/troubleshooting-slow-deployments"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Platform",
+        "groups": [
+          {
+            "group": "About Railway",
+            "pages": [
+              "platform",
+              "platform/philosophy",
+              "platform/use-cases",
+              "platform/railway-metal",
+              "platform/priority-boarding"
+            ]
+          },
+          {
+            "group": "Pricing & Plans",
+            "pages": [
+              "pricing"
+            ]
+          },
+          {
+            "group": "Enterprise",
+            "pages": [
+              "enterprise"
+            ]
+          },
+          {
+            "group": "Account & Access",
+            "pages": [
+              "access",
+              "access/accounts",
+              "access/multi-factor-auth",
+              "access/two-factor-enforcement"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "platform/support",
+              "platform/incident-management",
+              "community"
+            ]
+          },
+          {
+            "group": "Comparisons",
+            "pages": [
+              "platform/compare-to-heroku",
+              "platform/compare-to-vercel",
+              "platform/compare-to-render",
+              "platform/compare-to-fly",
+              "platform/compare-to-digitalocean",
+              "platform/compare-to-vps"
+            ]
+          },
+          {
+            "group": "Migration Guides",
+            "pages": [
+              "platform/migrate-from-heroku",
+              "platform/migrate-from-vercel",
+              "platform/migrate-from-render",
+              "platform/migrate-from-fly",
+              "platform/migrate-from-digitalocean"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "One-click deployments from GitHub",
+    "Automatic deployments on git push",
+    "Built-in databases (PostgreSQL, MySQL, MongoDB, Redis)",
+    "Private networking between services",
+    "Custom domains and SSL certificates",
+    "Horizontal and vertical scaling",
+    "Environment variables and secrets management",
+    "Persistent storage with volumes",
+    "Cron jobs and serverless functions",
+    "Multi-environment support (production, staging, etc.)",
+    "CLI for local development and deployment",
+    "Nixpacks and Docker build support",
+    "Railway Metal for enhanced performance",
+    "Template marketplace for quick starts",
+    "AI-powered agent skills and MCP server"
+  ],
+  "publicApiSurface": [
+    "Projects API",
+    "Services API",
+    "Deployments API",
+    "Environments API",
+    "Variables API",
+    "Domains API",
+    "Volumes API",
+    "CLI commands (railway init, deploy, up, down, etc.)",
+    "OAuth integration",
+    "GitHub integration",
+    "Template deployment",
+    "Database provisioning",
+    "Private networking",
+    "Public networking",
+    "Edge networking",
+    "Storage buckets",
+    "Cron jobs",
+    "Functions",
+    "AI Agent Skills",
+    "MCP Server"
+  ]
+}
